@@ -31,7 +31,7 @@ function App() {
             element={
               <>
                 <Header />
-                <AboutUs/>
+                <AboutUs />
                 <Footer />
               </>
             }
@@ -41,37 +41,37 @@ function App() {
             element={
               <>
                 <Header />
-                <ContactUs/>
+                <ContactUs />
                 <Footer />
               </>
             }
           />
-           <Route
+          <Route
             path="/services"
             element={
               <>
                 <Header />
-                <Services/>
+                <Services />
                 <Footer />
               </>
             }
           />
-           <Route
+          <Route
             path="/login"
             element={
               <>
                 <Header />
-                <Login/>
+                <Login />
                 {/* <Footer /> */}
               </>
             }
           />
-           <Route
-            path="/serviceInfo"
+          <Route
+            path="/serviceInfo/:id"
             element={
               <>
                 <Header />
-                <ServicesInfo/>
+                <ServicesInfo />
                 <Footer />
               </>
             }
@@ -81,7 +81,7 @@ function App() {
             element={
               <>
                 <Header />
-                <ServicesInfo/>
+                <ServicesInfo />
                 <Footer />
               </>
             }
@@ -91,7 +91,7 @@ function App() {
             element={
               <>
                 <Header />
-                <popBTN/>
+                <popBTN />
                 <Footer />
               </>
             }

@@ -8,7 +8,7 @@ export default function ContactForm() {
   <section className="py-12 sm:py-24">
     
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-      <div classNameName="text-center py-14 ">
+      <div className="text-center py-14 ">
       {/* <h3 className=""> تواصل معنا  </h3> */}
       </div>
       <div className="flex flex-wrap lg:flex-nowrap gap-6">

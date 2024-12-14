@@ -10,7 +10,9 @@ export default {
         'worker1': "url('./src/assets/About/worker1.jpg')",
         'servicesHeaderBG': "url('./src/assets/services/services-header-bg.png')",
       },
-      
+      fontFamily: {
+        cairo: ['Cairo', 'sans-serif'],
+      },
     },
   },
   plugins: [],
